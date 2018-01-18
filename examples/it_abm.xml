@@ -1,0 +1,21 @@
+<Simulation>
+  <Model type="Simple">
+    <DivisionRate>1</DivisionRate>
+    <DivisionRateSD>.05</DivisionRateSD>
+  </Model>
+  <Experiment type="IteratedGrowth">
+    <NumberOfPassages>0</NumberOfPassages>
+    <CriticalPopulationSize>10</CriticalPopulationSize>
+    <NumberOfCellsToKeep>10</NumberOfCellsToKeep>
+    <InitialPopulationSize>15</InitialPopulationSize>
+    <InitUniform>10</InitUniform>
+    <!--InitFile>test_init.txt</InitFile-->
+    <InitSeedDistr>100</InitSeedDistr>
+    <InitSeed>100</InitSeed>
+    <Seed>1</Seed>
+    <Name>it_abm_0001</Name>
+    <OutPath>data/</OutPath>
+    <UseSimDir/>
+    <TrackDivTime/>
+  </Experiment>
+</Simulation>

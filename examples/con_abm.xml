@@ -1,0 +1,19 @@
+<Simulation>
+  <Model type="Simple">
+    <DivisionRate>1</DivisionRate>
+  </Model>
+  <Experiment type="ConstantGrowth">
+    <SimulationTime>1</SimulationTime>
+    <InitialPopulationSize>300000</InitialPopulationSize>
+    <!--InitUniform>100</InitUniform-->
+    <InitFile>init/K562_noclustering_q=56.txt</InitFile>
+    <InitSeed>100</InitSeed>
+    <Seed>1</Seed>
+    <Name>con_abm</Name>
+    <SaveInterval>0.1</SaveInterval>
+    <OutPath>data/</OutPath>
+    <UseSimDir/>
+    <gzip/>
+    <SaveXML/>
+  </Experiment>
+</Simulation>
